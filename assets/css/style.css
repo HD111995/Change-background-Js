@@ -1,0 +1,58 @@
+/* Body Rendering */
+body{
+    text-align:center; 
+    margin:0;
+    padding:0;
+    
+}
+/* Section Styling/Rendering */
+section{
+    margin:0;
+    padding:0;
+}
+/* Section End  */
+/* Form Styling starts */
+form{
+    background-color:aliceblue;
+    width:18vw;
+    height:25vh;
+    padding:2%;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    margin-top:30vh;
+    border:2px solid black;
+    border-radius:15px;
+}
+/* Form Styling End */
+/* Form Children Element Styling */
+
+/* input type:text styling */
+input[type=text]{
+width:250px;
+height:30px;
+
+}
+/* input type:text styling End  */
+/* Label Styling */
+label{
+    font-size:30px;
+}
+/* Label Styling End */
+/* Input Type:button Styling */
+input[type=button]{
+    width:250px;
+    height:30px;
+    background-color:rgb(41, 252, 4);
+    font-size:18px;
+    
+}
+/* Input Type:button Styling End */
+/* input focus Styling */
+input:focus{
+    border:5px groove rgba(80, 80, 255, 0.863);
+    border-radius:5px;
+}
+/* Styling End */
